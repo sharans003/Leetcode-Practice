@@ -42,10 +42,10 @@ def max_florists(path_length, florist_intervals):
 
 
 if __name__ == "__main__":
-    #res = max_florists(9, [[1,10],[1,6], [2,8], [3,5]])
+    res = max_florists(5, [[0, 5], [0, 5], [0, 5], [0, 5], [0, 5], [5, 6], [6, 7]])
 
     #res = max_florists(16, [[1, 10], [1, 6], [1, 7],[10, 16], [10, 14]])
     #res = max_florists(5, [[1, 5], [1, 2], [2, 3], [3, 4], [4, 5]])
-    res = max_florists(0, [[1,2]])
+    #res = max_florists(14, [[5,7], [5,8], [6,7], [7,8], [10,11], [10,12], [10,13]])
     #res = max_florists(16, [[1, 10], [19, 20], [1, 6], [1, 7], [10, 16], [10, 14], [10, 19]]) # failed
     print(res)

@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <style>
+        .subCont1{
+            border:1px black solid;
+            height:20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subcont4{
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height:40px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .subcont2{
+            height:50px;
+            margin-top: 10px;
+            display: flex;
+        }
+        .subcont3{
+            height:50px;
+            display: flex;
+        }
+        .subcont2-1{
+            width:20%;
+        }
+        .subcont2-2{
+            display: flex;
+            width:80%;
+            border:1px dotted black;
+        }
+        .subcont2-1-1{
+            display: flex;
+            align-items: center;
+            height:50%;
+            border:1px solid black;
+        }
+        .subCont3-1{
+            width:25%;
+        }
+        .subCont3-3{
+            width:25%;
+        }
+        .subCont3-2{
+            
+            width:50%;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .subcont2-2-1{
+            display:flex;
+            width:33.33%;
+            align-items: flex-end;
+        }
+        .subcont2-2-2{
+            display:flex;
+            width:33.33%;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        .subcont2-2-3{
+            display:flex;
+            width:33.33%;
+            justify-content: flex-end;
+        }
+        .border-round{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: 1px black solid;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="subCont1">A</div>
+            <div class="subCont2">
+                <div class="subcont2-1">
+                    <div class="subcont2-1-1">B</div>
+                </div>
+                <div class="subcont2-2">
+                    <div class="subcont2-2-1"><div class="border-round">C2</div></div>
+                    <div class="subcont2-2-2">C</div>
+                    <div class="subcont2-2-3"><div class="border-round">C1</div></div>
+                </div>
+            </div>
+            <div class="subCont3">
+                <div class="subCont3-1"></div>
+                <div class="subCont3-2">D</div>
+                <div class="subCont3-3"></div>
+            </div>
+            <div class="subCont4">E</div>
+        </div>
+    </body>
+</html>

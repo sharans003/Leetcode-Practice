@@ -52,5 +52,5 @@ def  strengthen_passwords(passwords):
 
 if __name__ == "__main__":
     #passwords = ['nExTcapITalxnextcapital']
-    passwords = ['nextCapital']
+    passwords = ['nextcapital']
     strengthen_passwords(passwords)
